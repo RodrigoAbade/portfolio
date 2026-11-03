@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4f0">
+  <meta name="description" content="Rodrigo Abade — Desenvolvedor Backend .NET. Projetos em C#, inteligência artificial e IoT.">
+  <title>Rodrigo Abade | Desenvolvedor Backend .NET</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#inicio" class="logo" aria-label="Rodrigo Abade — Início">
+        RA<span>.</span>
+      </a>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <a href="#inicio" data-i18n="navHome">Início</a>
+        <a href="#sobre" data-i18n="navAbout">Sobre</a>
+        <a href="#habilidades" data-i18n="navSkills">Habilidades</a>
+        <a href="#projetos" data-i18n="navProjects">Projetos</a>
+        <a href="#publicacoes" data-i18n="navPublications">Publicações</a>
+        <a href="#contato" data-i18n="navContact">Contato</a>
+      </nav>
+
+      <div class="site-controls">
+        <div class="language-switch" role="group" aria-label="Idioma">
+          <button type="button" class="lang-btn active" data-lang="pt" aria-pressed="true">PT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <button class="theme-toggle" type="button" aria-label="Ativar modo escuro" title="Alternar tema">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="menu-principal"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero container">
+      <div class="hero-content">
+        <span class="eyebrow" data-i18n="heroEyebrow">
+          DESENVOLVEDOR DE SOFTWARE / SALVADOR, BA
+        </span>
+
+        <h1>Rodrigo<br><em>Abade.</em></h1>
+
+        <p class="hero-role" data-i18n="heroRole">
+          Desenvolvedor Backend · C# · .NET
+        </p>
+
+        <p class="hero-description" data-i18n="heroDescription">
+          Desenvolvimento de software e inteligência artificial.
+          Transformando problemas reais em soluções tecnológicas.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projetos" class="primary-link">
+            <span data-i18n="exploreProjects">Explorar projetos</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            href="Curriculo_Rodrigo_Abade_Nunes_Final.pdf"
+            class="secondary-link"
+            download="Rodrigo_Abade_Nunes_Curriculo.pdf"
+          >
+            <span data-i18n="downloadCV">Baixar currículo</span>
+            <span aria-hidden="true">↓</span>
+          </a>
+
+          <a href="#contato" class="secondary-link" data-i18n="navContact">
+            Contato
+          </a>
+        </div>
+      </div>
+
+      <figure class="hero-photo">
+        <img
+          src="perfil.jpeg"
+          alt="Retrato de Rodrigo Abade"
+          width="640"
+          height="768"
+          fetchpriority="high"
+        >
+        <figcaption>Rodrigo Abade — 2026</figcaption>
+      </figure>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <span class="section-number" data-i18n="aboutNumber">01 / SOBRE</span>
+          <h2 data-i18n="aboutTitle">Um pouco sobre mim.</h2>
+        </div>
+
+        <div class="section-body">
+          <p class="lead" data-i18n="aboutLead">
+            Sou desenvolvedor de software, bacharel em Ciência da Computação
+            e pós-graduando em Engenharia de Software com Métodos Ágeis.
+          </p>
+
+          <p data-i18n="aboutP1">
+            Atuei como desenvolvedor .NET no Ministério Público do Estado
+            da Bahia (2024–2025), criando soluções backend com C#, .NET 6,
+            SQL Server, Entity Framework Core e NHibernate.
+          </p>
+
+          <p data-i18n="aboutP2">
+            Desenvolvi um serviço de automação integrado ao Active Directory
+            via LDAP e um módulo administrativo em ASP.NET WebForms.
+            Também utilizei Angular, GitLab e CI/CD em projetos do MPBA.
+          </p>
+
+          <p data-i18n="aboutP3">
+            Além do backend, exploro inteligência artificial, visão
+            computacional e IoT em projetos e pesquisas acadêmicas.
+          </p>
+
+          <div class="about-details">
+            <div>
+              <span class="detail-label" data-i18n="education">FORMAÇÃO</span>
+              <strong data-i18n="educationValue">Ciência da Computação</strong>
+            </div>
+
+            <div>
+              <span class="detail-label" data-i18n="experience">EXPERIÊNCIA</span>
+              <strong data-i18n="experienceValue">Ministério Público da Bahia</strong>
+            </div>
+
+            <div>
+              <span class="detail-label" data-i18n="location">LOCALIZAÇÃO</span>
+              <strong data-i18n="locationValue">Salvador, Bahia</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-number" data-i18n="skillsNumber">
+            02 / CONHECIMENTOS
+          </span>
+          <h2 data-i18n="skillsTitle">Tecnologias &amp; ferramentas.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <span class="skill-index">01</span>
+            <h3>Backend</h3>
+            <ul>
+              <li>C# / .NET 6</li>
+              <li>ASP.NET WebForms</li>
+              <li>Worker Service</li>
+              <li>Entity Framework Core</li>
+              <li>NHibernate / Fluent NHibernate</li>
+              <li>SQL Server</li>
+              <li>Active Directory / LDAP</li>
+              <li data-i18n="aspStudies">ASP.NET Core e MVC (estudos)</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-index">02</span>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Angular</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <span class="skill-index">03</span>
+            <h3 data-i18n="toolsTitle">Ferramentas &amp; IA</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>GitLab / CI/CD</li>
+              <li>Visual Studio / IIS</li>
+              <li>Python / PyTorch</li>
+              <li>YOLOv8n-seg</li>
+              <li>Raspberry Pi 5</li>
+              <li data-i18n="dockerLearning">Docker (em aprendizado)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-number" data-i18n="projectsNumber">
+            03 / TRABALHOS
+          </span>
+          <h2 data-i18n="projectsTitle">Projetos selecionados.</h2>
+          <p data-i18n="projectsIntro">
+            Desenvolvimento backend, visão computacional,
+            aplicações web e Internet das Coisas.
+          </p>
+        </div>
+
+        <div class="projects-list">
+          <article class="project">
+            <span class="project-number">01</span>
+            <div class="project-content">
+              <span class="project-category" data-i18n="walleyeCategory">
+                INTELIGÊNCIA ARTIFICIAL / VISÃO COMPUTACIONAL
+              </span>
+              <h3>WallEye AI</h3>
+              <p data-i18n="walleyeDescription">
+                Projeto de detecção de rachaduras em estruturas de concreto
+                com YOLOv8n-seg, PyTorch e Raspberry Pi 5. Minha contribuição
+                incluiu a concepção da solução e o treinamento do modelo de IA;
+                a plataforma web foi desenvolvida em equipe.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>YOLOv8n-seg</span>
+                <span>PyTorch</span>
+                <span>Raspberry Pi 5</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/RodrigoAbade/Deteccao-IA-Rachadura"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="viewRepository">Ver repositório</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="project-number">02</span>
+            <div class="project-content">
+              <span class="project-category" data-i18n="airCategory">
+                INTERNET DAS COISAS / SISTEMAS EMBARCADOS
+              </span>
+              <h3 data-i18n="airTitle">Monitoramento da Qualidade do Ar</h3>
+              <p data-i18n="airDescription">
+                Projeto IoT com ESP8266 e sensores de gases, classificação
+                da qualidade do ar e envio de leituras para serviços
+                em nuvem, incluindo ThingSpeak.
+              </p>
+              <div class="project-tech">
+                <span>ESP8266</span>
+                <span>MQ-135</span>
+                <span>IoT</span>
+                <span>ThingSpeak</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/RodrigoAbade/Sistemas_Digitais_Monitoramento-Ar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="viewRepository">Ver repositório</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="project-number">03</span>
+            <div class="project-content">
+              <span class="project-category" data-i18n="webCategory">
+                DESENVOLVIMENTO WEB
+              </span>
+              <h3>PsicoConnect</h3>
+              <p data-i18n="psicoDescription">
+                Plataforma web para simulação de atendimento psicológico,
+                com múltiplos perfis, especialidades e mensagens
+                em tempo real via Firebase.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Firebase</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/RodrigoAbade/Psiconnect"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="viewRepository">Ver repositório</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="project-number">04</span>
+            <div class="project-content">
+              <span class="project-category" data-i18n="automationCategory">
+                BACKEND / AUTOMAÇÃO / MPBA
+              </span>
+              <h3 data-i18n="automationTitle">
+                Serviço de Desativação Automática
+              </h3>
+              <p data-i18n="automationDescription">
+                Worker Service em .NET 6 para desativação de contas de
+                estagiários e voluntários com contratos vencidos.
+                Inclui verificação de outros vínculos ativos, integração
+                com Active Directory via LDAP, Entity Framework Core
+                e SQL Server.
+              </p>
+              <div class="project-tech">
+                <span>C#</span>
+                <span>.NET 6</span>
+                <span>Worker Service</span>
+                <span>SQL Server</span>
+                <span>LDAP</span>
+              </div>
+              <p class="project-note" data-i18n="automationNote">
+                Projeto desenvolvido durante estágio no MPBA;
+                sem repositório público informado.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICAÇÕES -->
+    <section id="publicacoes" class="section">
+      <div class="container">
+        <div class="section-top">
+          <span class="section-number" data-i18n="publicationsNumber">
+            04 / PESQUISA CIENTÍFICA
+          </span>
+          <h2 data-i18n="publicationsTitle">Publicações acadêmicas.</h2>
+          <p data-i18n="publicationsIntro">
+            Pesquisas sobre inteligência artificial e monitoramento
+            de estruturas.
+          </p>
+        </div>
+
+        <div class="projects-list">
+          <article class="project">
+            <span class="project-number">01</span>
+            <div class="project-content">
+              <span class="project-category">II CONAPEC / 2025</span>
+              <h3 data-i18n="conapecTitle">
+                Reconhecimento de Rachaduras Estruturais Usando
+                Inteligência Artificial com Raspberry Pi
+              </h3>
+              <p data-i18n="conapecDescription">
+                Resumo apresentado no contexto do II CONAPEC 2025
+                e publicado nos anais do congresso em fevereiro de 2026.
+              </p>
+              <div class="project-tech">
+                <span>II CONAPEC</span>
+                <span data-i18n="computerVision">Visão Computacional</span>
+                <span>Raspberry Pi</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://doi.org/10.51189/ii-conapec/70773"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="conapecLink">Acessar publicação (DOI)</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <span class="project-number">02</span>
+            <div class="project-content">
+              <span class="project-category">XII SIINTEC / 2026</span>
+              <h3>
+                Automatic Crack Detection System in Concrete
+                Structures Using YOLOv8n-seg and Raspberry Pi 5
+              </h3>
+              <p data-i18n="siintecDescription">
+                Trabalho apresentado em sessão de pôsteres no
+                XII International Symposium on Innovation and Technology
+                (SIINTEC), SENAI CIMATEC, em 2026.
+              </p>
+              <div class="project-tech">
+                <span>SIINTEC 2026</span>
+                <span>YOLOv8n-seg</span>
+                <span>Raspberry Pi 5</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://doity.com.br/anais/jbth/trabalho/552402"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="siintecLink">Acessar trabalho nos anais</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contact-section">
+      <div class="container">
+        <span class="section-number" data-i18n="contactNumber">
+          05 / CONTATO
+        </span>
+
+        <h2>
+          <span data-i18n="contactTitle1">Vamos construir</span><br>
+          <em data-i18n="contactTitle2">algo juntos?</em>
+        </h2>
+
+        <p data-i18n="contactDescription">
+          Estou aberto a oportunidades em desenvolvimento de software,
+          especialmente backend com C# e .NET.
+        </p>
+
+        <div class="contact-links">
+          <a href="https://github.com/RodrigoAbade" target="_blank" rel="noopener noreferrer">
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/rodrigo-abade/" target="_blank" rel="noopener noreferrer">
+            LinkedIn <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            href="https://wa.me/5571992511721?text=Ol%C3%A1%2C%20Rodrigo%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp <span aria-hidden="true">↗</span>
+          </a>
+
+          <a href="mailto:rodrigoabadedev@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">
+            <span data-i18n="email">E-mail</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <a
+          class="project-link contact-cv"
+          href="Curriculo_Rodrigo_Abade_Nunes_Final.pdf"
+          download="Rodrigo_Abade_Nunes_Curriculo.pdf"
+        >
+          <span data-i18n="downloadCVPDF">Baixar currículo em PDF</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© 2026 Rodrigo Abade</span>
+      <span data-i18n="footerBuilt">
+        Desenvolvido com HTML, CSS e JavaScript.
+      </span>
+      <a href="#inicio" data-i18n="backToTop">Voltar ao início ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
