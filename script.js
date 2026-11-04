@@ -62,6 +62,16 @@ document.addEventListener("DOMContentLoaded", () => {
         "Backend development, computer vision, web applications, " +
         "and the Internet of Things.",
 
+      // TASKFLOW
+      taskflowCategory: "BACKEND / REST API / PERSONAL PROJECT",
+      taskflowDescription:
+        "Backend API for managing users and projects, " +
+        "developed with C# and ASP.NET Core. " +
+        "Organized into API, application, and infrastructure " +
+        "layers, with data persistence and authentication " +
+        "implementation in progress.",
+
+      // WALLEYE AI
       walleyeCategory:
         "ARTIFICIAL INTELLIGENCE / COMPUTER VISION",
       walleyeDescription:
@@ -73,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       viewRepository: "View repository",
 
+      // QUALIDADE DO AR
       airCategory: "INTERNET OF THINGS / EMBEDDED SYSTEMS",
       airTitle: "Air Quality Monitoring",
       airDescription:
@@ -80,12 +91,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "classify air quality and send readings to cloud " +
         "services, including ThingSpeak.",
 
+      // PSICOCONNECT
       webCategory: "WEB DEVELOPMENT",
       psicoDescription:
         "A web platform simulating psychological care, with " +
         "multiple user roles, specialties, and real-time " +
         "messaging via Firebase.",
 
+      // AUTOMAÇÃO MPBA
       automationCategory: "BACKEND / AUTOMATION / MPBA",
       automationTitle: "Automated Account Deactivation Service",
       automationDescription:
@@ -97,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Developed during my internship at MPBA; " +
         "no public repository is available.",
 
+      // PUBLICAÇÕES
       publicationsNumber: "04 / RESEARCH",
       publicationsTitle: "Academic publications.",
       publicationsIntro:
@@ -119,6 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Technology (SIINTEC), SENAI CIMATEC, in 2026.",
       siintecLink: "View conference paper",
 
+      // CONTATO E RODAPÉ
       contactNumber: "05 / CONTACT",
       contactTitle1: "Let's build",
       contactTitle2: "something together?",
