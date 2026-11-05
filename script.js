@@ -63,13 +63,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "and the Internet of Things.",
 
       // TASKFLOW
-      taskflowCategory: "BACKEND / REST API / PERSONAL PROJECT",
+      taskflowCategory: "BACKEND .NET 10 / REST API / COMPLETED",
       taskflowDescription:
-        "Backend API for managing users and projects, " +
-        "developed with C# and ASP.NET Core. " +
-        "Organized into API, application, and infrastructure " +
-        "layers, with data persistence and authentication " +
-        "implementation in progress.",
+        "REST API for project and task management, built with C# and " +
+        "ASP.NET Core 10 using a layered architecture, Entity Framework " +
+        "Core, and SQL Server. Includes JWT authentication, access control, " +
+        "business rules, Swagger UI, and security mechanisms. " +
+        "Backend development completed and locally validated with " +
+        "126 passing automated tests. Angular frontend planned.",
 
       // WALLEYE AI
       walleyeCategory:
